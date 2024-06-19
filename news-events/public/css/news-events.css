@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../team/images/bulubala.png);
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0; /* Remove margin from body */
+  padding: 0; /* Remove padding from body */
+}
+
+p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.fullContainer {
+  width: 100%;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0; /* Ensure header is at the top */
+  left: 0; /* Ensure header starts from the left */
+  z-index: 2;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container .logo {
+  padding: 15px 0;
+  height: 45px;
+}
+
+header .container .logo img {
+  height: 100%;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  display: inline-block;
+  height: 75px;
+  line-height: 75px;
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+  background-color: #dc3545;
+}
+
+.banner {
+  padding: 20px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.newsSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.newsItem {
+  width: 75%;
+  height: 75%;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.newsItem img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.newsItem h3 {
+  font-size: 18px; /* Adjust the font size for the title */
+  margin-bottom: 10px;
+}
+
+.newsContent {
+  text-align: left;
+}
+
+.newsContent p {
+  font-size: 14px; /* Adjust the font size for the description */
+  margin-bottom: 10px;
+}
+
+.newsDetails {
+  display: none;
+  margin-top: 10px;
+}
+
+.detailButton {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.detailButton:hover {
+  background: #0056b3;
+}
+
+.register-link {
+  color: #007bff;
+}
